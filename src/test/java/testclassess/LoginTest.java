@@ -41,6 +41,6 @@ public class LoginTest extends WebTestBase {
 
     @AfterMethod
     public void afterMethod() {
-        driver.close();
+        driver.quit();
     }
 }
